@@ -1,0 +1,19 @@
+blocked-commands:
+- me
+- pl
+- about
+- plugins
+- version
+- ver
+- seed
+- trigger
+- minecraft:trigger
+- minecraft:seed
+- icanhasbukkit
+- bukkit:plugins
+- bukkit:pl
+- bukkit:ver
+- bukkit:version
+- bukkit:about
+
+blocked-message: "§rUnknown command. Type /help for help."

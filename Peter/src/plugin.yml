@@ -1,0 +1,89 @@
+name: Peter
+main: me.takis967.peter.Main
+author: Takis967
+version: 1.7
+api-version: '1.20'
+
+commands:
+  fly:
+    description: Enable or disable /fly.
+    usage: /fly
+    permission: fly.use
+  info:
+    description: Displays player info.
+    usage: /info <player>
+    permission: info.use
+  heal:
+    description: Heals player.
+    usage: /heal
+    permission: heal.use
+  invsee:
+    description: See any player's inventory.
+    usage: /invsee
+    permission: invsee.use
+  announce:
+    description: Send Announcement public on the server.
+    usage: /announce <message>
+    permission: announce.use
+  kick:
+    description: kicks a player.
+    usage: /kick <player> <reason>
+    permission: kick.use
+  help:
+  calculate:
+    description: Nether Portal Calculator.
+    usage: /calculate (X and Z optional).
+  bin:
+    description: Open a disposal GUI and dispose of your garbage.
+    usage: /bin
+  coinflip:
+    description: Flip a coin to decide who goes first.
+    usage: /coinflip
+  cc:
+    description: Removes dropped items!
+    usage: /cc
+    permission: cc.use
+  pvp:
+    description: Enable/Disable PvP!
+    usage: /pvp
+    permission: pvp.use
+  spawn:
+    description: Teleport to spawn!
+    usage: /spawn
+    permission: spawn.use
+  prefix:
+    description: Change Player's Prefix.
+    usage: /prefix <name> <prefix>
+    permission: prefix.use
+
+permissions:
+  fly.use:
+    description: Allows a player to use the /fly command.
+    default: op
+  info.use:
+    description: Allows a player to use the /info command.
+    default: op
+  heal.use:
+    description: Allows a player to use the /heal command.
+    default: op
+  invsee.use:
+    description: Allows a player to use the /invsee command.
+    default: op
+  announce.use:
+    description: Allows a player to use the /announce command.
+    default: op
+  kick.use:
+    description: Allows a player to use the /kick command.
+    default: op
+  cc.use:
+    description: Allows a player to use the /cc command.
+    default: op
+  pvp.use:
+    description: Allows a player to use the /pvp command.
+    default: op
+  spawn.use:
+    description: Allows a player to use the /spawn command.
+    default: op
+  prefix.use:
+    description: Allows a player to use the /prefix command.
+    default: op
